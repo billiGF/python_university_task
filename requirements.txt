@@ -1,0 +1,11 @@
+# --- Main ---
+fastapi=0.118.0
+uvicorn["standart"]=0.37.0
+
+# --- Database ---
+sqlalchemy=2.0.43
+aiosqlite=0.21.0
+
+# --- Requirements ---
+pydantic-settings=2.11.0
+alembic=1.16.5
