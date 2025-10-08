@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
-from api.library import router
-from core.config import settings
+from src.api.library import router
+from src.core.config import settings
 from fastapi.middleware.cors import CORSMiddleware
 
 

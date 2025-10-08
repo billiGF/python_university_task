@@ -1,3 +1,3 @@
 """ Imports models Base and models for Alembic """
-from core.db import Base #noqa
-from models.library import Category, Magazine #noqa
+from src.core.db import Base #noqa
+from src.models.library import Category #noqa

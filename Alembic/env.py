@@ -10,7 +10,7 @@ from alembic import context
 #My imports
 import os
 from dotenv import load_dotenv
-from core.base import Base
+from src.core.base import Base
 
 load_dotenv('.env')
 

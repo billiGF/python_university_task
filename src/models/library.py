@@ -1,12 +1,11 @@
-from core.db import Base
+from src.core.db import Base
 from sqlalchemy.orm import relationship
 from sqlalchemy import Column, String,Integer, ForeignKey
 
 class Category(Base):
-    name = Column(String, unique=True, nullable=False)
-    magazine = relationship('Magazine', backref='categorys')
+    name = Column(String(20))
 
+# class Category(Base):
+#     name = Column(String)
+#     category_id = Column(Integer, ForeignKey('navigator.id'))
 
-class Magazine(Base):
-    name = Column(String, unique=True)
-    theme = Column(Integer, ForeignKey('category.id'))

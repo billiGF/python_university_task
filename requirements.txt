@@ -1,6 +1,6 @@
 # --- Main ---
 fastapi==0.118.0
-uvicorn[standard]==0.37.0
+uvicorn[standart]==0.37.0
 
 # --- Database ---
 sqlalchemy==2.0.43
